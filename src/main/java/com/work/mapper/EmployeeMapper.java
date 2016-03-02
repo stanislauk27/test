@@ -1,6 +1,6 @@
-package com.epam.mapper;
+package com.work.mapper;
 
-import com.epam.domain.Employee;
+import com.work.domain.Employee;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

@@ -1,8 +1,8 @@
-package com.epam.templates;
+package com.work.templates;
 
-import com.epam.dao.EmployeeDAO;
-import com.epam.domain.Employee;
-import com.epam.mapper.EmployeeMapper;
+import com.work.dao.EmployeeDAO;
+import com.work.domain.Employee;
+import com.work.mapper.EmployeeMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import javax.sql.DataSource;
@@ -28,7 +28,7 @@ public class EmployeeJDBCTemplate implements EmployeeDAO {
 
     @Override
     public void setEmployee(String name, String position, Integer salary) {
-        String SQL = "insert into employee (name, positions, salary) values (?, ?, ?)";
+        String SQL = "insert into employee (name, position, salary) values (?, ?, ?)";
         jdbcTemplate.update(SQL, name, position, salary);
         return;
     }

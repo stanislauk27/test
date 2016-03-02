@@ -1,6 +1,6 @@
-package com.epam.dao;
+package com.work.dao;
 
-import com.epam.domain.Employee;
+import com.work.domain.Employee;
 
 import javax.sql.DataSource;
 import java.util.List;

@@ -11,7 +11,7 @@
 
     <context:annotation-config />
 
-    <bean id="employeeJDBCTemplate" class="com.work.templates.EmployeeJDBCTemplate">
+    <bean id="employeeJDBCTemplate" class="com.epam.templates.EmployeeJDBCTemplate">
         <property name="dataSource" ref="dataSource" />
     </bean>
 

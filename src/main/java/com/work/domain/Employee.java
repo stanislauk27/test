@@ -1,4 +1,4 @@
-package com.epam.domain;
+package com.work.domain;
 
 /**
  * <p/>
